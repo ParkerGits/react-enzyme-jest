@@ -16,7 +16,7 @@ function App() {
           <li>Test 3</li>
         </ul>
         <li>Test 3</li>
-        <p class="App-intro">
+        <p className="App-intro">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
