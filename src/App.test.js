@@ -8,7 +8,7 @@ configure({ adapter: new Adapter() })
 
 describe('<App />', () => {
   it('should render App', () => {
-    const wrapper = shallow(<App />, {context: {}, disableLifecycleMethods: bool})
+    const wrapper = shallow(<App />, {context: {}, disableLifecycleMethods: false})
     console.log(wrapper.debug())
   })
 })
