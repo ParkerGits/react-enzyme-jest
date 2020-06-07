@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const Test = () => <div>Testing</div>
+const Title = ({text}) => <div>{text}</div>
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <p className="App-intro">
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Title text="Some title" />
         <a
           className="App-link"
           href="https://reactjs.org"
