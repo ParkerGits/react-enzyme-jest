@@ -9,7 +9,8 @@ const Title = ({text}) => <div>{text}</div>
 class App extends Component {
   state = {
      on: false,
-     input: ''
+     input: '',
+     mainColor: 'blue'
   }
   render() {
       return(
@@ -17,6 +18,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Welcome to React</h1>
+          <h3 className={this.state.mainColor}>Everyone is Welcome!</h3>
           <ul className="tyler">
             <li>Test 1</li>
             <li>Test 2</li>

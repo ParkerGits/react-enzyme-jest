@@ -16,6 +16,11 @@ exports[`<App /> mount rendering matches the snapshot 1`] = `
       <h1>
         Welcome to React
       </h1>
+      <h3
+        className="blue"
+      >
+        Everyone is Welcome!
+      </h3>
       <ul
         className="tyler"
       >
@@ -99,6 +104,11 @@ exports[`<App /> shallow rendering matches the snapshot 1`] = `
     <h1>
       Welcome to React
     </h1>
+    <h3
+      className="blue"
+    >
+      Everyone is Welcome!
+    </h3>
     <ul
       className="tyler"
     >
