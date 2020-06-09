@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -35,6 +35,12 @@ function App() {
       <Test />
     </div>
   );
+}
+
+export class Link extends Component {
+  render() {
+    return this.props.hide ? null : <a href={this.props.address}>Click</a>
+  }
 }
 
 export default App;
