@@ -1,3 +1,5 @@
+**This repository contains code from [Tyler Clark's Test React Components with Enzyme and Jest Course](https://egghead.io/courses/test-react-components-with-enzyme-and-jest) on egghead.io. Lesson code is contained in its respective branch.**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
