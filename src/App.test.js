@@ -8,7 +8,7 @@ configure({ adapter: new Adapter() })
 
 describe('<App />', () => {
   const wrapper = shallow(<App />)
-  it('should contain an h1 with text Welcome to React', () => {
+  it('should contain an element with logo as alt tag', () => {
     expect(wrapper.find({alt: 'logo'}).text()).toBe('Welcome to React')
   })
 })
