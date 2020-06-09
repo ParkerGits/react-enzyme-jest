@@ -6,35 +6,45 @@ const Test = () => <div>Testing</div>
 
 const Title = ({text}) => <div>{text}</div>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Welcome to React</h1>
-        <ul className="tyler">
-          <li>Test 1</li>
-          <li>Test 2</li>
+class App extends Component {
+  state = {
+     on: false,
+     input: ''
+  }
+  render() {
+      return(
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Welcome to React</h1>
+          <ul className="tyler">
+            <li>Test 1</li>
+            <li>Test 2</li>
+            <li>Test 3</li>
+          </ul>
           <li>Test 3</li>
-        </ul>
-        <li>Test 3</li>
-        <p className="App-intro">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Title text="Some title" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>Hello World</p>
-      </header>
-      <Test />
-    </div>
-  );
+          <p className='button-state'>{this.state.on ? 'Yes!' : 'No!'}</p>
+          <button onClick = {() => this.setState({on: true})}>Click</button>
+          <h2>{this.state.input}</h2>
+          <input onChange={(e) => this.setState({input: e.currentTarget.value})} type='text'/>
+          <p className="App-intro">
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <Title text="Some title" />
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+          <p>Hello World</p>
+        </header>
+        <Test />
+      </div>
+    );
+  }
 }
 
 export class Link extends Component {
