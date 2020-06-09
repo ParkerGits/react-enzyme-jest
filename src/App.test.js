@@ -9,6 +9,10 @@ configure({ adapter: new Adapter() })
 describe('<App />', () => {
   const wrapper = shallow(<App />)
   it('should contain an element with logo as alt tag', () => {
-    expect(wrapper.find({alt: 'logo'}).text()).toBe('Welcome to React')
+    expect(wrapper.find('h1').text()).toBe('Welcome to React')
+  })
+  it('matches the snapshot', () => {
+    const tree = shallow(<App />)
+    expect(tree).toMatchSnapshot()
   })
 })
