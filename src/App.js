@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const Test = () => <div>Testing</div>
 const Title = ({text}) => <div>{text}</div>
 
 function App() {
@@ -29,7 +30,6 @@ function App() {
           Learn React
         </a>
       </header>
-      <Test />
     </div>
   );
 }
