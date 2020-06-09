@@ -30,6 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Test />
     </div>
   );
 }
