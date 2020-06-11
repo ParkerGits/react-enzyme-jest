@@ -5,10 +5,9 @@ import { store } from './store'
 import './index.css'
 import App from './App'
 import TodoListContainer from './TodoList'
+import Form from './Form'
 
 ReactDOM.render(
-  <Provider store={store}>
-    <TodoListContainer />
-  </Provider>,
+  <Form />,
   document.getElementById('root')
 )
