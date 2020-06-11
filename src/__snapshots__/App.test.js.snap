@@ -38,6 +38,11 @@ exports[`<App /> mount rendering matches the snapshot 1`] = `
         Test 3
       </li>
       <p
+        className="lifeCycle"
+      >
+        componentDidMount
+      </p>
+      <p
         className="button-state"
       >
         No!
@@ -125,6 +130,11 @@ exports[`<App /> shallow rendering matches the snapshot 1`] = `
     <li>
       Test 3
     </li>
+    <p
+      className="lifeCycle"
+    >
+      componentDidMount
+    </p>
     <p
       className="button-state"
     >
