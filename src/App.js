@@ -13,12 +13,17 @@ class App extends Component {
      mainColor: 'blue',
      lifeCycle: ''
   }
+  handleStrings(str) {
+    if (str === 'Hello World') return true
+    return false
+  }
   componentDidMount() {
     this.setState({lifeCycle: 'componentDidMount'})
   }
   componentWillReceiveProps() {
     this.setState({lifeCycle: 'componentWillReceiveProps'})
   }
+
   render() {
       return(
       <div className="App">
