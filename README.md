@@ -1,4 +1,4 @@
-**This repository contains code from [Tyler Clark's Test React Components with Enzyme and Jest Course](https://egghead.io/courses/test-react-components-with-enzyme-and-jest) on egghead.io. THERE IS NO BRANCH FOR LESSON 1, SO THE BRANCH NUMBERS 1-14 CORRESPOND WITH LESSON NUMBERS 2-15**
+**This repository contains code from [Tyler Clark's Test React Components with Enzyme and Jest course](https://egghead.io/courses/test-react-components-with-enzyme-and-jest) on egghead.io. THERE IS NO BRANCH FOR LESSON 1, SO THE BRANCH NUMBERS 1-14 CORRESPOND WITH LESSON NUMBERS 2-15**.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
